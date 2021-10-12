@@ -1,0 +1,11 @@
+default_context:
+    municipality: "Seattle-Staging"
+    municipality_slug: "seattle-staging"
+    python_municipality_slug: "seattle_staging"
+    infrastructure_slug: "cdp-seattle-staging-dbengvtn"
+    maintainer_or_org_full_name: "Council Data Project Contributors"
+    hosting_github_username_or_org: "CouncilDataProject"
+    hosting_github_repo_name: "seattle-staging"
+    hosting_github_url: "https://github.com/CouncilDataProject/seattle-staging"
+    hosting_web_app_address: "https://CouncilDataProject.github.io/seattle-staging"
+    firestore_region: "us-central"
