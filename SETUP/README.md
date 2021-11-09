@@ -102,7 +102,7 @@ There are additional tasks required after generating this repository.
     Or (with SSH):
 
     ```bash
-    git remote add origin git@github.com/CouncilDataProject/seattle-staging.git
+    git remote add origin git@github.com:CouncilDataProject/seattle-staging.git
     ```
 
     Finally, to push this repo to GitHub, run:
