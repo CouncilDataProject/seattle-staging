@@ -1,5 +1,6 @@
 default_context:
     municipality: "Seattle-Staging"
+    governing_body_type: "city council"
     municipality_slug: "seattle-staging"
     python_municipality_slug: "seattle_staging"
     infrastructure_slug: "cdp-seattle-staging-dbengvtn"

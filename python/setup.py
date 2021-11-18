@@ -17,8 +17,8 @@ dev_requirements = [
 ]
 
 requirements = [
-    "cdp-backend[pipeline]~=3.0.0.dev19",
-    "cdp-scrapers>=0.2.2",
+    "cdp-backend[pipeline]~=3.0.0.dev27",
+    "cdp-scrapers>=0.3.0",
 ]
 
 extra_requirements = {
