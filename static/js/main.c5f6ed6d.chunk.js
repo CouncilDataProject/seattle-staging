@@ -1,2 +1,0 @@
-(this["webpackJsonpcdp-seattle-staging"]=this["webpackJsonpcdp-seattle-staging"]||[]).push([[0],{13:function(t,e,n){"use strict";n.r(e);n(0);var i=n(12),s=n.n(i),p=n(5),a=(n(46),n(2));s.a.render(Object(a.jsx)("div",{children:Object(a.jsx)(p.AppConfigProvider,{appConfig:{firebaseConfig:{options:{projectId:"cdp-seattle-staging-dbengvtn"},settings:{}},municipality:{name:"Seattle-Staging",footerLinksSections:[]}},children:Object(a.jsx)(p.App,{})})}),document.getElementById("root"))}},[[13,1,2]]]);
-//# sourceMappingURL=main.c5f6ed6d.chunk.js.map
