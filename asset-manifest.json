@@ -5,16 +5,16 @@
     "runtime-main.js": "/seattle-staging/static/js/runtime-main.06757666.js",
     "runtime-main.js.map": "/seattle-staging/static/js/runtime-main.06757666.js.map",
     "static/css/2.28feb4ba.chunk.css": "/seattle-staging/static/css/2.28feb4ba.chunk.css",
-    "static/js/2.f8a481d7.chunk.js": "/seattle-staging/static/js/2.f8a481d7.chunk.js",
-    "static/js/2.f8a481d7.chunk.js.map": "/seattle-staging/static/js/2.f8a481d7.chunk.js.map",
+    "static/js/2.b5996e49.chunk.js": "/seattle-staging/static/js/2.b5996e49.chunk.js",
+    "static/js/2.b5996e49.chunk.js.map": "/seattle-staging/static/js/2.b5996e49.chunk.js.map",
     "index.html": "/seattle-staging/index.html",
     "static/css/2.28feb4ba.chunk.css.map": "/seattle-staging/static/css/2.28feb4ba.chunk.css.map",
-    "static/js/2.f8a481d7.chunk.js.LICENSE.txt": "/seattle-staging/static/js/2.f8a481d7.chunk.js.LICENSE.txt"
+    "static/js/2.b5996e49.chunk.js.LICENSE.txt": "/seattle-staging/static/js/2.b5996e49.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.06757666.js",
     "static/css/2.28feb4ba.chunk.css",
-    "static/js/2.f8a481d7.chunk.js",
+    "static/js/2.b5996e49.chunk.js",
     "static/js/main.db2d53cd.chunk.js"
   ]
 }
