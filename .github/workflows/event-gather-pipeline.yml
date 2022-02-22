@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - main
-  schedule:
-    # <minute [0,59]> <hour [0,23]> <day of the month [1,31]> <month of the year [1,12]> <day of the week [0,6]>
-    # https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07
-    # Run every day at 0,6,12,18:26:00 UTC
-    # We offset from the hour and half hour to go easy on the servers :)
-    - cron: '26 0,6,12,18 * * *'
   workflow_dispatch:
     inputs:
       from:
@@ -54,12 +48,6 @@ jobs:
         echo "$GOOGLE_CREDS" > python/google-creds.json
       env:
         GOOGLE_CREDS: ${{ secrets.GOOGLE_CREDENTIALS }}
-
-    - name: Gather and Process New Events - CRON
-      if: ${{ github.event_name == 'schedule' }}
-      run: |
-        cd python/
-        run_cdp_event_gather event-gather-config.json --parallel
     
     - name: Gather and Process Requested Events - Manual
       if: ${{ github.event_name == 'workflow_dispatch' }}
