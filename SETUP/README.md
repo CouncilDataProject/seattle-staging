@@ -104,7 +104,7 @@ There are additional tasks required after generating this repository.
     This step should be run while within the `SETUP` directory (`cd SETUP`)
 
     ```bash
-    just setup us-central
+    just setup cdp-seattle-staging-dbengvtn us-central
     ```
 
 1.  Initial Firebase Storage.
