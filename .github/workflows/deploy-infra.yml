@@ -52,6 +52,7 @@ jobs:
         cd infrastructure
         echo "$GOOGLE_CREDENTIALS" > google-creds.json
         export GOOGLE_APPLICATION_CREDENTIALS=$(pwd)/google-creds.json
+        ls -lh
         just deploy \
           cdp-seattle-staging-dbengvtn \
           ../cookiecutter.yaml \
