@@ -57,7 +57,7 @@ jobs:
           cdp-seattle-staging-dbengvtn \
           $(pwd)/../cookiecutter.yaml \
           $(pwd)/google-creds.json \
-          us-central
+          us-central1
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
