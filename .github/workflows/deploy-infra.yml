@@ -52,10 +52,20 @@ jobs:
         cd infrastructure
         echo "$GOOGLE_CREDENTIALS" > google-creds.json
         export GOOGLE_APPLICATION_CREDENTIALS=$(pwd)/google-creds.json
-        ls -lh
         just deploy \
           cdp-seattle-staging-dbengvtn \
           $(pwd)/../cookiecutter.yaml \
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+
+    # Clipping Fill --Enabled
+    - name: Run Clipping Deploy
+      run: |
+        cd infrastructure
+        echo "$GOOGLE_CREDENTIALS" > google-creds.json
+        export GOOGLE_APPLICATION_CREDENTIALS=$(pwd)/google-creds.json
+        just deploy-clipping \
           $(pwd)/google-creds.json \
           us-central
       env:
