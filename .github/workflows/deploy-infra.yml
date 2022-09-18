@@ -55,8 +55,8 @@ jobs:
         ls -lh
         just deploy \
           cdp-seattle-staging-dbengvtn \
-          ../cookiecutter.yaml \
-          google-creds.json \
+          $(pwd)/../cookiecutter.yaml \
+          $(pwd)/google-creds.json \
           us-central
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
