@@ -45,6 +45,7 @@ jobs:
     - name: Copy and Generate Infrastructure Files
       run: |
         get_cdp_infrastructure_stack infrastructure
+        sed -i 's/cdp-backend\[functions\]==3.2.4/cdp-backend\[functions\]==3.2.9.dev1/g' infrastructure/gcloud-functions/generate-clip/requirements.txt
     
     # Run infrastructure deploy
     - name: Run Infrastructure Deploy
