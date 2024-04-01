@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/seattle-staging/static/js/main.01131443.chunk.js",
-    "main.js.map": "/seattle-staging/static/js/main.01131443.chunk.js.map",
-    "runtime-main.js": "/seattle-staging/static/js/runtime-main.f7747c1e.js",
-    "runtime-main.js.map": "/seattle-staging/static/js/runtime-main.f7747c1e.js.map",
+    "main.js": "/seattle-staging/static/js/main.2fa7d4d6.chunk.js",
+    "main.js.map": "/seattle-staging/static/js/main.2fa7d4d6.chunk.js.map",
+    "runtime-main.js": "/seattle-staging/static/js/runtime-main.8f391240.js",
+    "runtime-main.js.map": "/seattle-staging/static/js/runtime-main.8f391240.js.map",
     "static/css/2.bd5b6b7e.chunk.css": "/seattle-staging/static/css/2.bd5b6b7e.chunk.css",
-    "static/js/2.e259ea41.chunk.js": "/seattle-staging/static/js/2.e259ea41.chunk.js",
-    "static/js/2.e259ea41.chunk.js.map": "/seattle-staging/static/js/2.e259ea41.chunk.js.map",
+    "static/js/2.b818c1cc.chunk.js": "/seattle-staging/static/js/2.b818c1cc.chunk.js",
+    "static/js/2.b818c1cc.chunk.js.map": "/seattle-staging/static/js/2.b818c1cc.chunk.js.map",
     "index.html": "/seattle-staging/index.html",
     "static/css/2.bd5b6b7e.chunk.css.map": "/seattle-staging/static/css/2.bd5b6b7e.chunk.css.map",
-    "static/js/2.e259ea41.chunk.js.LICENSE.txt": "/seattle-staging/static/js/2.e259ea41.chunk.js.LICENSE.txt"
+    "static/js/2.b818c1cc.chunk.js.LICENSE.txt": "/seattle-staging/static/js/2.b818c1cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f7747c1e.js",
+    "static/js/runtime-main.8f391240.js",
     "static/css/2.bd5b6b7e.chunk.css",
-    "static/js/2.e259ea41.chunk.js",
-    "static/js/main.01131443.chunk.js"
+    "static/js/2.b818c1cc.chunk.js",
+    "static/js/main.2fa7d4d6.chunk.js"
   ]
 }
